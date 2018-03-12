@@ -30,6 +30,40 @@ Below are tags that group elements together.
 
   <footer></footer>
 ```
+## About Different Sections
+**body**  
+Represents the content of an HTML document. There can be only one `<body>` element in a document.
+  
+**div**  
+eneric container for flow content. It has no effect on the content or layout until styled using CSS. As a "pure" container, the `<div>` element does not inherently represent anything. Instead, it's used to group content so it can be easily styled using the class or id attributes, marking a section of a document as being written in a different language (using the lang attribute), and so on.
+
+**section**  
+The HTML `<section>` element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document. Typically, but not always, sections have a heading.
+
+As an example, a navigation menu should be wrapped in a `<nav>` element, but a list of search results and a map display and its controls don't have specific elements, and could be put inside a `<section>`.
+
+```html
+<section>
+  <h1>Heading</h1>
+  <p>Bunch of awesome content</p>
+</section>
+```
+  
+**article**  
+Represents the content of an HTML document. There can be only one <body> element in a document.
+  
+**nav**  
+Represents the content of an HTML document. There can be only one <body> element in a document.
+  
+**nav**  
+Represents the content of an HTML document. There can be only one <body> element in a document.
+  
+**nav**  
+Represents the content of an HTML document. There can be only one <body> element in a document.
+  
+  **nav**  
+Represents the content of an HTML document. There can be only one <body> element in a document.
+
 **Think, Pair, Share**
 Take some time to research how to use each of the above tags. Then discuss with your chair pair. And then high five each other.
 
